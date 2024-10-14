@@ -1,4 +1,4 @@
-# SNI-Guardian 🌐
+# SNI- Tool 🌐
 
 Welcome to **Diiablo-SNI-Explorer**, an advanced tool designed to help users find and check Server Name Indication (SNI) details effortlessly. This tool is built to provide a user-friendly experience in the Termux environment while automatically detecting your IP address and location.
 
@@ -17,5 +17,19 @@ To run **Diiablo-SNI-Explorer** on your Termux, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/r4jeshx/SNI-Guardian.git
-2. **
+   https://github.com/r4jeshx/Diiablo-SNI-Explorer
+2. **Termux Update & Upgrade**
+   ```bash
+   pkg update && pkg upgrade -y
+3. **Install Required Packages**
+   ```bash
+   pkg install python git -y
+4. **Navigate to the Directory**
+   ```bash
+   cd Diiablo-SNI-Explorer
+5. **Install Required Python Modules**
+   ```bash
+   pip install requests
+6. **Run the Tool**
+   ```bash
+   python Start.py
